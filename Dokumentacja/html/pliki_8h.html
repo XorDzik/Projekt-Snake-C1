@@ -1,0 +1,893 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Projekt PP2: Dokumentacja pliku pliki.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projekt PP2
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Struktury&#160;Danych</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Globalne</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('pliki_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Struktury Danych</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Struktury danych</a> &#124;
+<a href="#define-members">Definicje</a> &#124;
+<a href="#typedef-members">Definicje typów</a> &#124;
+<a href="#enum-members">Wyliczenia</a> &#124;
+<a href="#func-members">Funkcje</a> &#124;
+<a href="#var-members">Zmienne</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku pliki.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Naglowki Plik zawiera deklaracje bibliotek niezbednych do funkcjonowania programu, deklaracje stalych, zmiennych, bitmap, mapy, typow wyliczeniowych oraz funkcji.  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &lt;allegro.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Wykres zależności załączania dla pliki.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h__incl.png" border="0" usemap="#pliki_8h" alt=""/></div>
+<map name="pliki_8h" id="pliki_8h">
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h__dep__incl.png" border="0" usemap="#pliki_8hdep" alt=""/></div>
+<map name="pliki_8hdep" id="pliki_8hdep">
+</map>
+</div>
+</div>
+<p><a href="pliki_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Struktury danych</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsnake__node.html">snake_node</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elementy ciala weza Struktura przechowuje zmienna w ktorej zapisany jest kierunek ruchu weza oraz jego aktualne wspolrzedne. Zawiera takze wskaznik na nastepny element ciala weza.  <a href="structsnake__node.html#details">Więcej...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definicje</h2></td></tr>
+<tr class="memitem:a755bfad0f9ff72306b90115f4036ed68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68">WYSOKOSC_MAPY</a>&#160;&#160;&#160;48</td></tr>
+<tr class="memdesc:a755bfad0f9ff72306b90115f4036ed68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stale Stala przechowujaca informacje o wyskosci mapy.  <a href="#a755bfad0f9ff72306b90115f4036ed68">Więcej...</a><br /></td></tr>
+<tr class="separator:a755bfad0f9ff72306b90115f4036ed68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ccbf4137eda5d047abf79552913047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#af8ccbf4137eda5d047abf79552913047">SZEROKOSC_MAPY</a>&#160;&#160;&#160;64</td></tr>
+<tr class="memdesc:af8ccbf4137eda5d047abf79552913047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stale Stala przechowujaca informacje o szerokosci mapy.  <a href="#af8ccbf4137eda5d047abf79552913047">Więcej...</a><br /></td></tr>
+<tr class="separator:af8ccbf4137eda5d047abf79552913047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5128e31ef911a5ffe3ad485ef5ac8eac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a5128e31ef911a5ffe3ad485ef5ac8eac">MNOZNIK</a>&#160;&#160;&#160;10</td></tr>
+<tr class="memdesc:a5128e31ef911a5ffe3ad485ef5ac8eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stale Stala przechowujaca informacje o mnozniku.  <a href="#a5128e31ef911a5ffe3ad485ef5ac8eac">Więcej...</a><br /></td></tr>
+<tr class="separator:a5128e31ef911a5ffe3ad485ef5ac8eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Definicje typów</h2></td></tr>
+<tr class="memitem:adef90bc7970bac1b274a06ee5731d554"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structsnake__node.html">snake_node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#adef90bc7970bac1b274a06ee5731d554">snake_node</a></td></tr>
+<tr class="memdesc:adef90bc7970bac1b274a06ee5731d554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elementy ciala weza Struktura przechowuje zmienna w ktorej zapisany jest kierunek ruchu weza oraz jego aktualne wspolrzedne. Zawiera takze wskaznik na nastepny element ciala weza.  <a href="#adef90bc7970bac1b274a06ee5731d554">Więcej...</a><br /></td></tr>
+<tr class="separator:adef90bc7970bac1b274a06ee5731d554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Wyliczenia</h2></td></tr>
+<tr class="memitem:a99f26e6ee9fcd62f75203b5402df8098"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098">direction</a> { <a class="el" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a919c412a8a74926ddbfb474c33f42718">lewo</a> = 0, 
+<a class="el" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a">prawo</a>, 
+<a class="el" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a858167ee58cbdbf1752df3a497bdfcad">gora</a>, 
+<a class="el" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ad62001cd0993683968b480eb2b26af0e">dol</a>
+ }</td></tr>
+<tr class="memdesc:a99f26e6ee9fcd62f75203b5402df8098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kierunki ruchu.  <a href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098">Więcej...</a><br /></td></tr>
+<tr class="separator:a99f26e6ee9fcd62f75203b5402df8098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03408aabe16bb53c780fae6cf3910f9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9">object</a> { <br />
+&#160;&#160;<a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a216aaecccbc66071373d1191ae89cf60">nic</a> = 0, 
+<a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a0dbfeddab4bb1393c615655d41fd25f5">cytrynka</a>, 
+<a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a33174288a27187aab7e4cf89cb947448">snake</a>, 
+<a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9afe9674b1e0554444129fc7f706e61320">jabluszko</a>, 
+<br />
+&#160;&#160;<a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112">truskawka</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ad03408aabe16bb53c780fae6cf3910f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obiekty Przechowuje wartosci "owocow", "weza", oraz nic.  <a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9">Więcej...</a><br /></td></tr>
+<tr class="separator:ad03408aabe16bb53c780fae6cf3910f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a03817c78a8aa241e06794f71a9374142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a> (<a class="el" href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">licznik</a>)</td></tr>
+<tr class="memdesc:a03817c78a8aa241e06794f71a9374142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Variable Funkcja przydzielajace pamiec na zmienna licznik za pomoca specjalnych makr.  <a href="#a03817c78a8aa241e06794f71a9374142">Więcej...</a><br /></td></tr>
+<tr class="separator:a03817c78a8aa241e06794f71a9374142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443d90ab3d2d22c19bec84bd0a5c0ee7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a443d90ab3d2d22c19bec84bd0a5c0ee7">LOCK_VARIABLE</a> (<a class="el" href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">klatki</a>)</td></tr>
+<tr class="memdesc:a443d90ab3d2d22c19bec84bd0a5c0ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Variable Funkcja przydzielajace pamiec na zmienna klatki za pomoca specjalnych makr.  <a href="#a443d90ab3d2d22c19bec84bd0a5c0ee7">Więcej...</a><br /></td></tr>
+<tr class="separator:a443d90ab3d2d22c19bec84bd0a5c0ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefcfe0573524ac79322a5199072847f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#aefcfe0573524ac79322a5199072847f7">LOCK_VARIABLE</a> (<a class="el" href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">tick</a>)</td></tr>
+<tr class="memdesc:aefcfe0573524ac79322a5199072847f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Variable Funkcja przydzielajace pamiec na zmienna tick za pomoca specjalnych makr.  <a href="#aefcfe0573524ac79322a5199072847f7">Więcej...</a><br /></td></tr>
+<tr class="separator:aefcfe0573524ac79322a5199072847f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1d81bf36ee9fde1fcc3eabf861c716b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#af1d81bf36ee9fde1fcc3eabf861c716b">LOCK_VARIABLE</a> (<a class="el" href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">resting</a>)</td></tr>
+<tr class="memdesc:af1d81bf36ee9fde1fcc3eabf861c716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Variable Funkcja przydzielajace pamiec na zmienna resting za pomoca specjalnych makr.  <a href="#af1d81bf36ee9fde1fcc3eabf861c716b">Więcej...</a><br /></td></tr>
+<tr class="separator:af1d81bf36ee9fde1fcc3eabf861c716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6711dbddf2cdc971eb0743c1283c2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#aba6711dbddf2cdc971eb0743c1283c2a">LOCK_VARIABLE</a> (<a class="el" href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">rested</a>)</td></tr>
+<tr class="memdesc:aba6711dbddf2cdc971eb0743c1283c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Variable Funkcja przydzielajace pamiec na zmienna rested za pomoca specjalnych makr.  <a href="#aba6711dbddf2cdc971eb0743c1283c2a">Więcej...</a><br /></td></tr>
+<tr class="separator:aba6711dbddf2cdc971eb0743c1283c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d7578403df73fcd6df8a63371a5dc13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a5d7578403df73fcd6df8a63371a5dc13">LOCK_FUNCTION</a> (<a class="el" href="pliki_8h.html#af21562636f3c617cacfc05dfd70679ea">timer1</a>)</td></tr>
+<tr class="memdesc:a5d7578403df73fcd6df8a63371a5dc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Function.  <a href="#a5d7578403df73fcd6df8a63371a5dc13">Więcej...</a><br /></td></tr>
+<tr class="separator:a5d7578403df73fcd6df8a63371a5dc13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca25476c581e17d0e2b935120de1f1cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#aca25476c581e17d0e2b935120de1f1cb">LOCK_FUNCTION</a> (<a class="el" href="pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2">rest1</a>)</td></tr>
+<tr class="memdesc:aca25476c581e17d0e2b935120de1f1cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock Function.  <a href="#aca25476c581e17d0e2b935120de1f1cb">Więcej...</a><br /></td></tr>
+<tr class="separator:aca25476c581e17d0e2b935120de1f1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21562636f3c617cacfc05dfd70679ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#af21562636f3c617cacfc05dfd70679ea">timer1</a> (void)</td></tr>
+<tr class="memdesc:af21562636f3c617cacfc05dfd70679ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">timer1  <a href="#af21562636f3c617cacfc05dfd70679ea">Więcej...</a><br /></td></tr>
+<tr class="separator:af21562636f3c617cacfc05dfd70679ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac665766b70e7d5a42ddd0fd2236e28b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2">rest1</a> (void)</td></tr>
+<tr class="memdesc:ac665766b70e7d5a42ddd0fd2236e28b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">rest1  <a href="#ac665766b70e7d5a42ddd0fd2236e28b2">Więcej...</a><br /></td></tr>
+<tr class="separator:ac665766b70e7d5a42ddd0fd2236e28b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76181fc0392608fe8d0da5c01908631"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#aa76181fc0392608fe8d0da5c01908631">Losuj_Cytrynke</a> ()</td></tr>
+<tr class="memdesc:aa76181fc0392608fe8d0da5c01908631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Losowanie cytrynek.  <a href="#aa76181fc0392608fe8d0da5c01908631">Więcej...</a><br /></td></tr>
+<tr class="separator:aa76181fc0392608fe8d0da5c01908631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae557f44b44102818b7967bd0eb48a6f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#ae557f44b44102818b7967bd0eb48a6f2">Losuj_Jabluszko</a> ()</td></tr>
+<tr class="memdesc:ae557f44b44102818b7967bd0eb48a6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Losowanie jabluszek.  <a href="#ae557f44b44102818b7967bd0eb48a6f2">Więcej...</a><br /></td></tr>
+<tr class="separator:ae557f44b44102818b7967bd0eb48a6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ebb84e171d8a80c941ee3cae6139356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a4ebb84e171d8a80c941ee3cae6139356">Losuj_Truskawki</a> ()</td></tr>
+<tr class="memdesc:a4ebb84e171d8a80c941ee3cae6139356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Losowanie truskawek.  <a href="#a4ebb84e171d8a80c941ee3cae6139356">Więcej...</a><br /></td></tr>
+<tr class="separator:a4ebb84e171d8a80c941ee3cae6139356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632d50bc6acb5d08614d0f99a7ed7293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a632d50bc6acb5d08614d0f99a7ed7293">Info</a> ()</td></tr>
+<tr class="memdesc:a632d50bc6acb5d08614d0f99a7ed7293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informacja.  <a href="#a632d50bc6acb5d08614d0f99a7ed7293">Więcej...</a><br /></td></tr>
+<tr class="separator:a632d50bc6acb5d08614d0f99a7ed7293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a86b61cad77820476f005bc22233f38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a0a86b61cad77820476f005bc22233f38">Sterowanie</a> ()</td></tr>
+<tr class="memdesc:a0a86b61cad77820476f005bc22233f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sterowanie.  <a href="#a0a86b61cad77820476f005bc22233f38">Więcej...</a><br /></td></tr>
+<tr class="separator:a0a86b61cad77820476f005bc22233f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d19652faeccace63360b93fcb32d05a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a1d19652faeccace63360b93fcb32d05a">Strona_glowna</a> ()</td></tr>
+<tr class="memdesc:a1d19652faeccace63360b93fcb32d05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strona glowna.  <a href="#a1d19652faeccace63360b93fcb32d05a">Więcej...</a><br /></td></tr>
+<tr class="separator:a1d19652faeccace63360b93fcb32d05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Zmienne</h2></td></tr>
+<tr class="memitem:a21854bc2c90fe6d0e5371a898a9f5868"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">licznik</a></td></tr>
+<tr class="memdesc:a21854bc2c90fe6d0e5371a898a9f5868"><td class="mdescLeft">&#160;</td><td class="mdescRight">Licznik Deklaracja zmiennej licznik z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator optymalizacji.  <a href="#a21854bc2c90fe6d0e5371a898a9f5868">Więcej...</a><br /></td></tr>
+<tr class="separator:a21854bc2c90fe6d0e5371a898a9f5868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64245bdb10926e808975e679c8f59679"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">tick</a></td></tr>
+<tr class="memdesc:a64245bdb10926e808975e679c8f59679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tick Deklaracja zmiennej tick z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator optymalizacji.  <a href="#a64245bdb10926e808975e679c8f59679">Więcej...</a><br /></td></tr>
+<tr class="separator:a64245bdb10926e808975e679c8f59679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2b62d1a49123b47b7ed3efb40bab54"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">klatki</a></td></tr>
+<tr class="memdesc:aec2b62d1a49123b47b7ed3efb40bab54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Klatki Deklaracja zmiennej klatki z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator optymalizacji.  <a href="#aec2b62d1a49123b47b7ed3efb40bab54">Więcej...</a><br /></td></tr>
+<tr class="separator:aec2b62d1a49123b47b7ed3efb40bab54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3a4d827b543faeb65b45395ca988d0"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">resting</a></td></tr>
+<tr class="memdesc:aac3a4d827b543faeb65b45395ca988d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">resting Deklaracja zmiennych resting z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator optymalizacji  <a href="#aac3a4d827b543faeb65b45395ca988d0">Więcej...</a><br /></td></tr>
+<tr class="separator:aac3a4d827b543faeb65b45395ca988d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd505eb431e8f4dff2c1267157e1448f"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">rested</a></td></tr>
+<tr class="memdesc:afd505eb431e8f4dff2c1267157e1448f"><td class="mdescLeft">&#160;</td><td class="mdescRight">rested Deklaracja zmiennej rested z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator optymalizacji  <a href="#afd505eb431e8f4dff2c1267157e1448f">Więcej...</a><br /></td></tr>
+<tr class="separator:afd505eb431e8f4dff2c1267157e1448f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc5eac61baeb0b1c04b0ef3337a51a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a8dc5eac61baeb0b1c04b0ef3337a51a9">Mapa</a> [<a class="el" href="pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68">WYSOKOSC_MAPY</a>][<a class="el" href="pliki_8h.html#af8ccbf4137eda5d047abf79552913047">SZEROKOSC_MAPY</a>]</td></tr>
+<tr class="memdesc:a8dc5eac61baeb0b1c04b0ef3337a51a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapa.  <a href="#a8dc5eac61baeb0b1c04b0ef3337a51a9">Więcej...</a><br /></td></tr>
+<tr class="separator:a8dc5eac61baeb0b1c04b0ef3337a51a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944c3ec87ecf43e35a1a2d8d7e45f979"><td class="memItemLeft" align="right" valign="top">BITMAP *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a944c3ec87ecf43e35a1a2d8d7e45f979">bufor</a></td></tr>
+<tr class="memdesc:a944c3ec87ecf43e35a1a2d8d7e45f979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmapy Deklaracja wskaznika na bitmape, na ktorej toczy sie gra.  <a href="#a944c3ec87ecf43e35a1a2d8d7e45f979">Więcej...</a><br /></td></tr>
+<tr class="separator:a944c3ec87ecf43e35a1a2d8d7e45f979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a4157f27e197bc0583f4e013b625dc"><td class="memItemLeft" align="right" valign="top">BITMAP *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#ae0a4157f27e197bc0583f4e013b625dc">bufor1</a></td></tr>
+<tr class="memdesc:ae0a4157f27e197bc0583f4e013b625dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowana jest instrukcja.  <a href="#ae0a4157f27e197bc0583f4e013b625dc">Więcej...</a><br /></td></tr>
+<tr class="separator:ae0a4157f27e197bc0583f4e013b625dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2053625f7552f599e91a0f1e2895c9"><td class="memItemLeft" align="right" valign="top">BITMAP *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a1f2053625f7552f599e91a0f1e2895c9">bufor2</a></td></tr>
+<tr class="memdesc:a1f2053625f7552f599e91a0f1e2895c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowany jest komunikat o bledzie.  <a href="#a1f2053625f7552f599e91a0f1e2895c9">Więcej...</a><br /></td></tr>
+<tr class="separator:a1f2053625f7552f599e91a0f1e2895c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465a220d57849d0fb23abd544597f14c"><td class="memItemLeft" align="right" valign="top">BITMAP *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a465a220d57849d0fb23abd544597f14c">bufor3</a></td></tr>
+<tr class="memdesc:a465a220d57849d0fb23abd544597f14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowana jest instrukcja sterowania.  <a href="#a465a220d57849d0fb23abd544597f14c">Więcej...</a><br /></td></tr>
+<tr class="separator:a465a220d57849d0fb23abd544597f14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d14e948e3e75a39a03a2e3827b0353"><td class="memItemLeft" align="right" valign="top">BITMAP *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pliki_8h.html#a87d14e948e3e75a39a03a2e3827b0353">snejk</a></td></tr>
+<tr class="memdesc:a87d14e948e3e75a39a03a2e3827b0353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowany jest waz.  <a href="#a87d14e948e3e75a39a03a2e3827b0353">Więcej...</a><br /></td></tr>
+<tr class="separator:a87d14e948e3e75a39a03a2e3827b0353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Dokumentacja definicji</h2>
+<a class="anchor" id="a5128e31ef911a5ffe3ad485ef5ac8eac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MNOZNIK&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00032">32</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af8ccbf4137eda5d047abf79552913047"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SZEROKOSC_MAPY&#160;&#160;&#160;64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00026">26</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a755bfad0f9ff72306b90115f4036ed68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WYSOKOSC_MAPY&#160;&#160;&#160;48</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00020">20</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja definicji typów</h2>
+<a class="anchor" id="adef90bc7970bac1b274a06ee5731d554"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structsnake__node.html">snake_node</a>  <a class="el" href="structsnake__node.html">snake_node</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja typów wyliczanych</h2>
+<a class="anchor" id="a99f26e6ee9fcd62f75203b5402df8098"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098">direction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Wartosci zapisane w tym typie sluza do okreslenia kierunku poruszania sie "weza" </p>
+<table class="fieldtable">
+<tr><th colspan="2">Wartości wyliczeń</th></tr><tr><td class="fieldname"><a class="anchor" id="a99f26e6ee9fcd62f75203b5402df8098a919c412a8a74926ddbfb474c33f42718"></a>lewo&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a"></a>prawo&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a99f26e6ee9fcd62f75203b5402df8098a858167ee58cbdbf1752df3a497bdfcad"></a>gora&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a99f26e6ee9fcd62f75203b5402df8098ad62001cd0993683968b480eb2b26af0e"></a>dol&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00155">155</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad03408aabe16bb53c780fae6cf3910f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9">object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Wartości wyliczeń</th></tr><tr><td class="fieldname"><a class="anchor" id="ad03408aabe16bb53c780fae6cf3910f9a216aaecccbc66071373d1191ae89cf60"></a>nic&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad03408aabe16bb53c780fae6cf3910f9a0dbfeddab4bb1393c615655d41fd25f5"></a>cytrynka&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad03408aabe16bb53c780fae6cf3910f9a33174288a27187aab7e4cf89cb947448"></a>snake&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad03408aabe16bb53c780fae6cf3910f9afe9674b1e0554444129fc7f706e61320"></a>jabluszko&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112"></a>truskawka&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00165">165</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a class="anchor" id="a632d50bc6acb5d08614d0f99a7ed7293"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Info </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja opisuje na czym polega gra, co powoduje zjedzenie poszczegolnych "owocow" </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00039">39</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_a632d50bc6acb5d08614d0f99a7ed7293_icgraph.png" border="0" usemap="#pliki_8h_a632d50bc6acb5d08614d0f99a7ed7293_icgraph" alt=""/></div>
+<map name="pliki_8h_a632d50bc6acb5d08614d0f99a7ed7293_icgraph" id="pliki_8h_a632d50bc6acb5d08614d0f99a7ed7293_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5d7578403df73fcd6df8a63371a5dc13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_FUNCTION </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#af21562636f3c617cacfc05dfd70679ea">timer1</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja przydzielajaca pamiec na timer1 za pomoca specjalnych makr </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aca25476c581e17d0e2b935120de1f1cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_FUNCTION </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2">rest1</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja przydzielajaca pamiec na rest1 za pomoca specjalnych makr </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a03817c78a8aa241e06794f71a9374142"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_VARIABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">licznik</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a443d90ab3d2d22c19bec84bd0a5c0ee7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_VARIABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">klatki</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aefcfe0573524ac79322a5199072847f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_VARIABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">tick</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af1d81bf36ee9fde1fcc3eabf861c716b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_VARIABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">resting</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aba6711dbddf2cdc971eb0743c1283c2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOCK_VARIABLE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">rested</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa76181fc0392608fe8d0da5c01908631"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Losuj_Cytrynke </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja losuje "cytryne" w pseudolosowym miejscu na mapie w ktorym aktualnie znajduje sie puste pole </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00090">90</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_aa76181fc0392608fe8d0da5c01908631_icgraph.png" border="0" usemap="#pliki_8h_aa76181fc0392608fe8d0da5c01908631_icgraph" alt=""/></div>
+<map name="pliki_8h_aa76181fc0392608fe8d0da5c01908631_icgraph" id="pliki_8h_aa76181fc0392608fe8d0da5c01908631_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae557f44b44102818b7967bd0eb48a6f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Losuj_Jabluszko </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja losuje "jabluszko" w pseudolosowym miejscu na mapie w ktorym aktualnie znajduje sie puste pole </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00106">106</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_ae557f44b44102818b7967bd0eb48a6f2_icgraph.png" border="0" usemap="#pliki_8h_ae557f44b44102818b7967bd0eb48a6f2_icgraph" alt=""/></div>
+<map name="pliki_8h_ae557f44b44102818b7967bd0eb48a6f2_icgraph" id="pliki_8h_ae557f44b44102818b7967bd0eb48a6f2_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ebb84e171d8a80c941ee3cae6139356"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Losuj_Truskawki </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja losuje "truskawke" w pseudolosowym miejscu na mapie w ktorym aktualnie znajduje sie puste pole </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00122">122</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_a4ebb84e171d8a80c941ee3cae6139356_icgraph.png" border="0" usemap="#pliki_8h_a4ebb84e171d8a80c941ee3cae6139356_icgraph" alt=""/></div>
+<map name="pliki_8h_a4ebb84e171d8a80c941ee3cae6139356_icgraph" id="pliki_8h_a4ebb84e171d8a80c941ee3cae6139356_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac665766b70e7d5a42ddd0fd2236e28b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rest1 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja inkrementuje zmienna resting </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00030">30</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_ac665766b70e7d5a42ddd0fd2236e28b2_icgraph.png" border="0" usemap="#pliki_8h_ac665766b70e7d5a42ddd0fd2236e28b2_icgraph" alt=""/></div>
+<map name="pliki_8h_ac665766b70e7d5a42ddd0fd2236e28b2_icgraph" id="pliki_8h_ac665766b70e7d5a42ddd0fd2236e28b2_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0a86b61cad77820476f005bc22233f38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Sterowanie </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja instruuje gracza jak nalezy poruszac sie wezem </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00076">76</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_a0a86b61cad77820476f005bc22233f38_icgraph.png" border="0" usemap="#pliki_8h_a0a86b61cad77820476f005bc22233f38_icgraph" alt=""/></div>
+<map name="pliki_8h_a0a86b61cad77820476f005bc22233f38_icgraph" id="pliki_8h_a0a86b61cad77820476f005bc22233f38_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d19652faeccace63360b93fcb32d05a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Strona_glowna </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja pokazuje opis menu. </p><dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00062">62</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_a1d19652faeccace63360b93fcb32d05a_icgraph.png" border="0" usemap="#pliki_8h_a1d19652faeccace63360b93fcb32d05a_icgraph" alt=""/></div>
+<map name="pliki_8h_a1d19652faeccace63360b93fcb32d05a_icgraph" id="pliki_8h_a1d19652faeccace63360b93fcb32d05a_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af21562636f3c617cacfc05dfd70679ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer1 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja inkrementuje zmienna licznik, przypisuje zmiennej klatki wartosc zmiennnej tick, przypisuje zmiennej tick wartosc zero, oraz zmiennej rested przypisuje wartosc zmiennej resting </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">void</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Funkcja niczego nie zwraca </dd></dl>
+
+<p>Definicja w linii <a class="el" href="pliki_8c_source.html#l00016">16</a> pliku <a class="el" href="pliki_8c_source.html">pliki.c</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="pliki_8h_af21562636f3c617cacfc05dfd70679ea_icgraph.png" border="0" usemap="#pliki_8h_af21562636f3c617cacfc05dfd70679ea_icgraph" alt=""/></div>
+<map name="pliki_8h_af21562636f3c617cacfc05dfd70679ea_icgraph" id="pliki_8h_af21562636f3c617cacfc05dfd70679ea_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja zmiennych</h2>
+<a class="anchor" id="a944c3ec87ecf43e35a1a2d8d7e45f979"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BITMAP* bufor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00124">124</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0a4157f27e197bc0583f4e013b625dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BITMAP* bufor1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00130">130</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1f2053625f7552f599e91a0f1e2895c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BITMAP* bufor2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00136">136</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a465a220d57849d0fb23abd544597f14c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BITMAP* bufor3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00142">142</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec2b62d1a49123b47b7ed3efb40bab54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int klatki</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00051">51</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a21854bc2c90fe6d0e5371a898a9f5868"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int licznik</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00039">39</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8dc5eac61baeb0b1c04b0ef3337a51a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Mapa[<a class="el" href="pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68">WYSOKOSC_MAPY</a>][<a class="el" href="pliki_8h.html#af8ccbf4137eda5d047abf79552913047">SZEROKOSC_MAPY</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Deklaracja tablicy za pomoca ktorej rysowana jest mapa </p>
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00117">117</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd505eb431e8f4dff2c1267157e1448f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int rested</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00063">63</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac3a4d827b543faeb65b45395ca988d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int resting</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00057">57</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a87d14e948e3e75a39a03a2e3827b0353"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BITMAP* snejk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00148">148</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64245bdb10926e808975e679c8f59679"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int tick</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="pliki_8h_source.html#l00045">45</a> pliku <a class="el" href="pliki_8h_source.html">pliki.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="pliki_8h.html">pliki.h</a></li>
+    <li class="footer">Wygenerowano Śr, 14 cze 2017 23:28:11 dla Projekt PP2 programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

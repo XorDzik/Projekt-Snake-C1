@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1497475268 source:c:\users\piotrek\desktop\projekt\main.c
+	"pliki.h"
+
+1497477926 c:\users\piotrek\desktop\projekt\pliki.h
+	<allegro.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1497475031 source:c:\users\piotrek\desktop\projekt\pliki.c
+	"pliki.h"
+
+1497475395 source:c:\users\piotrek\desktop\informatyka\semestr 2\pp2\projekt pp2 izabela bo¿êcka, piotr micha³ek  gr. 14b\projekt\main.c
+	"pliki.h"
+
+1497475665 c:\users\piotrek\desktop\informatyka\semestr 2\pp2\projekt pp2 izabela bo¿êcka, piotr micha³ek  gr. 14b\projekt\pliki.h
+	<allegro.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1497475394 source:c:\users\piotrek\desktop\informatyka\semestr 2\pp2\projekt pp2 izabela bo¿êcka, piotr micha³ek  gr. 14b\projekt\pliki.c
+	"pliki.h"
+
+1497478995 source:c:\users\piotrek\desktop\projekt c1 snake\projekt\main.c
+	"pliki.h"
+
+1497479265 c:\users\piotrek\desktop\projekt c1 snake\projekt\pliki.h
+	<allegro.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1497478994 source:c:\users\piotrek\desktop\projekt c1 snake\projekt\pliki.c
+	"pliki.h"
+

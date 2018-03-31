@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Projekt PP2: Plik źródłowy pliki.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projekt PP2
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Struktury&#160;Danych</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Globalne</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('pliki_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Struktury Danych</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Pliki</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funkcje</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Zmienne</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definicje typów</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Wyliczenia</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Wartości wyliczeń</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Definicje</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">pliki.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="pliki_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PLIKI_H_INCLUDED</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PLIKI_H_INCLUDED</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;allegro.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68">   20</a></span>&#160;<span class="preprocessor">#define WYSOKOSC_MAPY 48</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="pliki_8h.html#af8ccbf4137eda5d047abf79552913047">   26</a></span>&#160;<span class="preprocessor">#define SZEROKOSC_MAPY 64</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="pliki_8h.html#a5128e31ef911a5ffe3ad485ef5ac8eac">   32</a></span>&#160;<span class="preprocessor">#define MNOZNIK 10</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">   39</a></span>&#160;<span class="keyword">volatile</span> <span class="keywordtype">int</span> <a class="code" href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">licznik</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">   45</a></span>&#160;<span class="keyword">volatile</span> <span class="keywordtype">int</span> <a class="code" href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">tick</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">   51</a></span>&#160;<span class="keyword">volatile</span> <span class="keywordtype">int</span> <a class="code" href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">klatki</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">   57</a></span>&#160;<span class="keyword">volatile</span> <span class="keywordtype">int</span> <a class="code" href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">resting</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">   63</a></span>&#160;<span class="keyword">volatile</span> <span class="keywordtype">int</span> <a class="code" href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">rested</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<a class="code" href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a>(<a class="code" href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">licznik</a>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<a class="code" href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a>(<a class="code" href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">klatki</a>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<a class="code" href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a>(<a class="code" href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">tick</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<a class="code" href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a>(<a class="code" href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">resting</a>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<a class="code" href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a>(<a class="code" href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">rested</a>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<a class="code" href="pliki_8h.html#a5d7578403df73fcd6df8a63371a5dc13">LOCK_FUNCTION</a>(<a class="code" href="pliki_8h.html#af21562636f3c617cacfc05dfd70679ea">timer1</a>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<a class="code" href="pliki_8h.html#a5d7578403df73fcd6df8a63371a5dc13">LOCK_FUNCTION</a>(<a class="code" href="pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2">rest1</a>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="pliki_8h.html#a8dc5eac61baeb0b1c04b0ef3337a51a9">  117</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="pliki_8h.html#a8dc5eac61baeb0b1c04b0ef3337a51a9">Mapa</a>[<a class="code" href="pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68">WYSOKOSC_MAPY</a>][<a class="code" href="pliki_8h.html#af8ccbf4137eda5d047abf79552913047">SZEROKOSC_MAPY</a>];</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="pliki_8h.html#a944c3ec87ecf43e35a1a2d8d7e45f979">  124</a></span>&#160;BITMAP *<a class="code" href="pliki_8h.html#a944c3ec87ecf43e35a1a2d8d7e45f979">bufor</a>;</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="pliki_8h.html#ae0a4157f27e197bc0583f4e013b625dc">  130</a></span>&#160;BITMAP *<a class="code" href="pliki_8h.html#ae0a4157f27e197bc0583f4e013b625dc">bufor1</a>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="pliki_8h.html#a1f2053625f7552f599e91a0f1e2895c9">  136</a></span>&#160;BITMAP *<a class="code" href="pliki_8h.html#a1f2053625f7552f599e91a0f1e2895c9">bufor2</a>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="pliki_8h.html#a465a220d57849d0fb23abd544597f14c">  142</a></span>&#160;BITMAP *<a class="code" href="pliki_8h.html#a465a220d57849d0fb23abd544597f14c">bufor3</a>;</div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="pliki_8h.html#a87d14e948e3e75a39a03a2e3827b0353">  148</a></span>&#160;BITMAP *<a class="code" href="pliki_8h.html#a87d14e948e3e75a39a03a2e3827b0353">snejk</a>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098">  155</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;{</div>
+<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a">  157</a></span>&#160;    <a class="code" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a919c412a8a74926ddbfb474c33f42718">lewo</a> = 0, <a class="code" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a">prawo</a>, <a class="code" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a858167ee58cbdbf1752df3a497bdfcad">gora</a>, <a class="code" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ad62001cd0993683968b480eb2b26af0e">dol</a></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;} <a class="code" href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098">direction</a>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9">  165</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112">  167</a></span>&#160;    <a class="code" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a216aaecccbc66071373d1191ae89cf60">nic</a> = 0, <a class="code" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a0dbfeddab4bb1393c615655d41fd25f5">cytrynka</a>, <a class="code" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a33174288a27187aab7e4cf89cb947448">snake</a>, <a class="code" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9afe9674b1e0554444129fc7f706e61320">jabluszko</a>, <a class="code" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112">truskawka</a></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;} <a class="code" href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9">object</a>;</div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="structsnake__node.html">  175</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structsnake__node.html">snake_node</a></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;{</div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="structsnake__node.html#ac58c0ffe2be66e087bd2922f0f17b2c6">  177</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structsnake__node.html#ac58c0ffe2be66e087bd2922f0f17b2c6">kierunek</a>;</div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="structsnake__node.html#a6150e0515f7202e2fb518f7206ed97dc">  178</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structsnake__node.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="structsnake__node.html#a0a2f84ed7838f07779ae24c5a9086d33">  179</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structsnake__node.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno"><a class="line" href="structsnake__node.html#ad01dfed4c4807cd71770c9bb5cd6e0e3">  180</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structsnake__node.html">snake_node</a> *<a class="code" href="structsnake__node.html#ad01dfed4c4807cd71770c9bb5cd6e0e3">next</a>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;} <a class="code" href="pliki_8h.html#adef90bc7970bac1b274a06ee5731d554">snake_node</a>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#af21562636f3c617cacfc05dfd70679ea">timer1</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2">rest1</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#aa76181fc0392608fe8d0da5c01908631">Losuj_Cytrynke</a>();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#ae557f44b44102818b7967bd0eb48a6f2">Losuj_Jabluszko</a>();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#a4ebb84e171d8a80c941ee3cae6139356">Losuj_Truskawki</a>();</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#a632d50bc6acb5d08614d0f99a7ed7293">Info</a>();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#a0a86b61cad77820476f005bc22233f38">Sterowanie</a>();</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="keywordtype">void</span> <a class="code" href="pliki_8h.html#a1d19652faeccace63360b93fcb32d05a">Strona_glowna</a>();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="preprocessor">#endif // PLIKI_H_INCLUDED</span></div>
+<div class="ttc" id="pliki_8h_html_a99f26e6ee9fcd62f75203b5402df8098"><div class="ttname"><a href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098">direction</a></div><div class="ttdeci">direction</div><div class="ttdoc">Kierunki ruchu. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00155">pliki.h:155</a></div></div>
+<div class="ttc" id="pliki_8h_html_aa76181fc0392608fe8d0da5c01908631"><div class="ttname"><a href="pliki_8h.html#aa76181fc0392608fe8d0da5c01908631">Losuj_Cytrynke</a></div><div class="ttdeci">void Losuj_Cytrynke()</div><div class="ttdoc">Losowanie cytrynek. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00090">pliki.c:90</a></div></div>
+<div class="ttc" id="pliki_8h_html_ac665766b70e7d5a42ddd0fd2236e28b2"><div class="ttname"><a href="pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2">rest1</a></div><div class="ttdeci">void rest1(void)</div><div class="ttdoc">rest1 </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00030">pliki.c:30</a></div></div>
+<div class="ttc" id="pliki_8h_html_ad03408aabe16bb53c780fae6cf3910f9"><div class="ttname"><a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9">object</a></div><div class="ttdeci">object</div><div class="ttdoc">Obiekty Przechowuje wartosci "owocow", "weza", oraz nic. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00165">pliki.h:165</a></div></div>
+<div class="ttc" id="pliki_8h_html_a4ebb84e171d8a80c941ee3cae6139356"><div class="ttname"><a href="pliki_8h.html#a4ebb84e171d8a80c941ee3cae6139356">Losuj_Truskawki</a></div><div class="ttdeci">void Losuj_Truskawki()</div><div class="ttdoc">Losowanie truskawek. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00122">pliki.c:122</a></div></div>
+<div class="ttc" id="pliki_8h_html_a99f26e6ee9fcd62f75203b5402df8098ad62001cd0993683968b480eb2b26af0e"><div class="ttname"><a href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ad62001cd0993683968b480eb2b26af0e">dol</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00157">pliki.h:157</a></div></div>
+<div class="ttc" id="pliki_8h_html_af8ccbf4137eda5d047abf79552913047"><div class="ttname"><a href="pliki_8h.html#af8ccbf4137eda5d047abf79552913047">SZEROKOSC_MAPY</a></div><div class="ttdeci">#define SZEROKOSC_MAPY</div><div class="ttdoc">Stale Stala przechowujaca informacje o szerokosci mapy. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00026">pliki.h:26</a></div></div>
+<div class="ttc" id="pliki_8h_html_a944c3ec87ecf43e35a1a2d8d7e45f979"><div class="ttname"><a href="pliki_8h.html#a944c3ec87ecf43e35a1a2d8d7e45f979">bufor</a></div><div class="ttdeci">BITMAP * bufor</div><div class="ttdoc">Bitmapy Deklaracja wskaznika na bitmape, na ktorej toczy sie gra. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00124">pliki.h:124</a></div></div>
+<div class="ttc" id="pliki_8h_html_a8dc5eac61baeb0b1c04b0ef3337a51a9"><div class="ttname"><a href="pliki_8h.html#a8dc5eac61baeb0b1c04b0ef3337a51a9">Mapa</a></div><div class="ttdeci">int Mapa[WYSOKOSC_MAPY][SZEROKOSC_MAPY]</div><div class="ttdoc">Mapa. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00117">pliki.h:117</a></div></div>
+<div class="ttc" id="pliki_8h_html_a21854bc2c90fe6d0e5371a898a9f5868"><div class="ttname"><a href="pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868">licznik</a></div><div class="ttdeci">volatile int licznik</div><div class="ttdoc">Licznik Deklaracja zmiennej licznik z przydomkiem volatile w celu wylaczenia stosowanej prze kompilat...</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00039">pliki.h:39</a></div></div>
+<div class="ttc" id="pliki_8h_html_adef90bc7970bac1b274a06ee5731d554"><div class="ttname"><a href="pliki_8h.html#adef90bc7970bac1b274a06ee5731d554">snake_node</a></div><div class="ttdeci">struct snake_node snake_node</div><div class="ttdoc">Elementy ciala weza Struktura przechowuje zmienna w ktorej zapisany jest kierunek ruchu weza oraz jeg...</div></div>
+<div class="ttc" id="pliki_8h_html_a755bfad0f9ff72306b90115f4036ed68"><div class="ttname"><a href="pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68">WYSOKOSC_MAPY</a></div><div class="ttdeci">#define WYSOKOSC_MAPY</div><div class="ttdoc">Stale Stala przechowujaca informacje o wyskosci mapy. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00020">pliki.h:20</a></div></div>
+<div class="ttc" id="structsnake__node_html_ad01dfed4c4807cd71770c9bb5cd6e0e3"><div class="ttname"><a href="structsnake__node.html#ad01dfed4c4807cd71770c9bb5cd6e0e3">snake_node::next</a></div><div class="ttdeci">struct snake_node * next</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00180">pliki.h:180</a></div></div>
+<div class="ttc" id="pliki_8h_html_a1d19652faeccace63360b93fcb32d05a"><div class="ttname"><a href="pliki_8h.html#a1d19652faeccace63360b93fcb32d05a">Strona_glowna</a></div><div class="ttdeci">void Strona_glowna()</div><div class="ttdoc">Strona glowna. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00062">pliki.c:62</a></div></div>
+<div class="ttc" id="pliki_8h_html_aac3a4d827b543faeb65b45395ca988d0"><div class="ttname"><a href="pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0">resting</a></div><div class="ttdeci">volatile int resting</div><div class="ttdoc">resting Deklaracja zmiennych resting z przydomkiem volatile w celu wylaczenia stosowanej prze kompila...</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00057">pliki.h:57</a></div></div>
+<div class="ttc" id="pliki_8h_html_a99f26e6ee9fcd62f75203b5402df8098a919c412a8a74926ddbfb474c33f42718"><div class="ttname"><a href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a919c412a8a74926ddbfb474c33f42718">lewo</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00157">pliki.h:157</a></div></div>
+<div class="ttc" id="pliki_8h_html_a465a220d57849d0fb23abd544597f14c"><div class="ttname"><a href="pliki_8h.html#a465a220d57849d0fb23abd544597f14c">bufor3</a></div><div class="ttdeci">BITMAP * bufor3</div><div class="ttdoc">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowana jest instrukcja sterowania. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00142">pliki.h:142</a></div></div>
+<div class="ttc" id="structsnake__node_html_ac58c0ffe2be66e087bd2922f0f17b2c6"><div class="ttname"><a href="structsnake__node.html#ac58c0ffe2be66e087bd2922f0f17b2c6">snake_node::kierunek</a></div><div class="ttdeci">int kierunek</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00177">pliki.h:177</a></div></div>
+<div class="ttc" id="structsnake__node_html"><div class="ttname"><a href="structsnake__node.html">snake_node</a></div><div class="ttdoc">Elementy ciala weza Struktura przechowuje zmienna w ktorej zapisany jest kierunek ruchu weza oraz jeg...</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00175">pliki.h:175</a></div></div>
+<div class="ttc" id="structsnake__node_html_a6150e0515f7202e2fb518f7206ed97dc"><div class="ttname"><a href="structsnake__node.html#a6150e0515f7202e2fb518f7206ed97dc">snake_node::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00178">pliki.h:178</a></div></div>
+<div class="ttc" id="pliki_8h_html_a87d14e948e3e75a39a03a2e3827b0353"><div class="ttname"><a href="pliki_8h.html#a87d14e948e3e75a39a03a2e3827b0353">snejk</a></div><div class="ttdeci">BITMAP * snejk</div><div class="ttdoc">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowany jest waz. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00148">pliki.h:148</a></div></div>
+<div class="ttc" id="pliki_8h_html_a0a86b61cad77820476f005bc22233f38"><div class="ttname"><a href="pliki_8h.html#a0a86b61cad77820476f005bc22233f38">Sterowanie</a></div><div class="ttdeci">void Sterowanie()</div><div class="ttdoc">Sterowanie. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00076">pliki.c:76</a></div></div>
+<div class="ttc" id="pliki_8h_html_a03817c78a8aa241e06794f71a9374142"><div class="ttname"><a href="pliki_8h.html#a03817c78a8aa241e06794f71a9374142">LOCK_VARIABLE</a></div><div class="ttdeci">LOCK_VARIABLE(licznik)</div><div class="ttdoc">Lock Variable Funkcja przydzielajace pamiec na zmienna licznik za pomoca specjalnych makr...</div></div>
+<div class="ttc" id="pliki_8h_html_a5d7578403df73fcd6df8a63371a5dc13"><div class="ttname"><a href="pliki_8h.html#a5d7578403df73fcd6df8a63371a5dc13">LOCK_FUNCTION</a></div><div class="ttdeci">LOCK_FUNCTION(timer1)</div><div class="ttdoc">Lock Function. </div></div>
+<div class="ttc" id="pliki_8h_html_ae0a4157f27e197bc0583f4e013b625dc"><div class="ttname"><a href="pliki_8h.html#ae0a4157f27e197bc0583f4e013b625dc">bufor1</a></div><div class="ttdeci">BITMAP * bufor1</div><div class="ttdoc">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowana jest instrukcja. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00130">pliki.h:130</a></div></div>
+<div class="ttc" id="pliki_8h_html_ad03408aabe16bb53c780fae6cf3910f9afe9674b1e0554444129fc7f706e61320"><div class="ttname"><a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9afe9674b1e0554444129fc7f706e61320">jabluszko</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00167">pliki.h:167</a></div></div>
+<div class="ttc" id="pliki_8h_html_ad03408aabe16bb53c780fae6cf3910f9a216aaecccbc66071373d1191ae89cf60"><div class="ttname"><a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a216aaecccbc66071373d1191ae89cf60">nic</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00167">pliki.h:167</a></div></div>
+<div class="ttc" id="pliki_8h_html_a64245bdb10926e808975e679c8f59679"><div class="ttname"><a href="pliki_8h.html#a64245bdb10926e808975e679c8f59679">tick</a></div><div class="ttdeci">volatile int tick</div><div class="ttdoc">Tick Deklaracja zmiennej tick z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator opt...</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00045">pliki.h:45</a></div></div>
+<div class="ttc" id="pliki_8h_html_ad03408aabe16bb53c780fae6cf3910f9a33174288a27187aab7e4cf89cb947448"><div class="ttname"><a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a33174288a27187aab7e4cf89cb947448">snake</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00167">pliki.h:167</a></div></div>
+<div class="ttc" id="pliki_8h_html_a632d50bc6acb5d08614d0f99a7ed7293"><div class="ttname"><a href="pliki_8h.html#a632d50bc6acb5d08614d0f99a7ed7293">Info</a></div><div class="ttdeci">void Info()</div><div class="ttdoc">Informacja. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00039">pliki.c:39</a></div></div>
+<div class="ttc" id="pliki_8h_html_aec2b62d1a49123b47b7ed3efb40bab54"><div class="ttname"><a href="pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54">klatki</a></div><div class="ttdeci">volatile int klatki</div><div class="ttdoc">Klatki Deklaracja zmiennej klatki z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator...</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00051">pliki.h:51</a></div></div>
+<div class="ttc" id="pliki_8h_html_ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112"><div class="ttname"><a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112">truskawka</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00167">pliki.h:167</a></div></div>
+<div class="ttc" id="pliki_8h_html_a1f2053625f7552f599e91a0f1e2895c9"><div class="ttname"><a href="pliki_8h.html#a1f2053625f7552f599e91a0f1e2895c9">bufor2</a></div><div class="ttdeci">BITMAP * bufor2</div><div class="ttdoc">Bitmapy Deklaracja wskaznika na bitmape, na ktorej rysowany jest komunikat o bledzie. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00136">pliki.h:136</a></div></div>
+<div class="ttc" id="structsnake__node_html_a0a2f84ed7838f07779ae24c5a9086d33"><div class="ttname"><a href="structsnake__node.html#a0a2f84ed7838f07779ae24c5a9086d33">snake_node::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00179">pliki.h:179</a></div></div>
+<div class="ttc" id="pliki_8h_html_a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a"><div class="ttname"><a href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a">prawo</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00157">pliki.h:157</a></div></div>
+<div class="ttc" id="pliki_8h_html_ae557f44b44102818b7967bd0eb48a6f2"><div class="ttname"><a href="pliki_8h.html#ae557f44b44102818b7967bd0eb48a6f2">Losuj_Jabluszko</a></div><div class="ttdeci">void Losuj_Jabluszko()</div><div class="ttdoc">Losowanie jabluszek. </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00106">pliki.c:106</a></div></div>
+<div class="ttc" id="pliki_8h_html_a99f26e6ee9fcd62f75203b5402df8098a858167ee58cbdbf1752df3a497bdfcad"><div class="ttname"><a href="pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a858167ee58cbdbf1752df3a497bdfcad">gora</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00157">pliki.h:157</a></div></div>
+<div class="ttc" id="pliki_8h_html_af21562636f3c617cacfc05dfd70679ea"><div class="ttname"><a href="pliki_8h.html#af21562636f3c617cacfc05dfd70679ea">timer1</a></div><div class="ttdeci">void timer1(void)</div><div class="ttdoc">timer1 </div><div class="ttdef"><b>Definition:</b> <a href="pliki_8c_source.html#l00016">pliki.c:16</a></div></div>
+<div class="ttc" id="pliki_8h_html_afd505eb431e8f4dff2c1267157e1448f"><div class="ttname"><a href="pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f">rested</a></div><div class="ttdeci">volatile int rested</div><div class="ttdoc">rested Deklaracja zmiennej rested z przydomkiem volatile w celu wylaczenia stosowanej prze kompilator...</div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00063">pliki.h:63</a></div></div>
+<div class="ttc" id="pliki_8h_html_ad03408aabe16bb53c780fae6cf3910f9a0dbfeddab4bb1393c615655d41fd25f5"><div class="ttname"><a href="pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a0dbfeddab4bb1393c615655d41fd25f5">cytrynka</a></div><div class="ttdef"><b>Definition:</b> <a href="pliki_8h_source.html#l00167">pliki.h:167</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="pliki_8h.html">pliki.h</a></li>
+    <li class="footer">Wygenerowano Śr, 14 cze 2017 23:28:10 dla Projekt PP2 programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

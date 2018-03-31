@@ -1,0 +1,47 @@
+var pliki_8h =
+[
+    [ "snake_node", "structsnake__node.html", "structsnake__node" ],
+    [ "MNOZNIK", "pliki_8h.html#a5128e31ef911a5ffe3ad485ef5ac8eac", null ],
+    [ "SZEROKOSC_MAPY", "pliki_8h.html#af8ccbf4137eda5d047abf79552913047", null ],
+    [ "WYSOKOSC_MAPY", "pliki_8h.html#a755bfad0f9ff72306b90115f4036ed68", null ],
+    [ "snake_node", "pliki_8h.html#adef90bc7970bac1b274a06ee5731d554", null ],
+    [ "direction", "pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098", [
+      [ "lewo", "pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a919c412a8a74926ddbfb474c33f42718", null ],
+      [ "prawo", "pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ae3dc66d701d92bd2a3b3a6d753cac98a", null ],
+      [ "gora", "pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098a858167ee58cbdbf1752df3a497bdfcad", null ],
+      [ "dol", "pliki_8h.html#a99f26e6ee9fcd62f75203b5402df8098ad62001cd0993683968b480eb2b26af0e", null ]
+    ] ],
+    [ "object", "pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9", [
+      [ "nic", "pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a216aaecccbc66071373d1191ae89cf60", null ],
+      [ "cytrynka", "pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a0dbfeddab4bb1393c615655d41fd25f5", null ],
+      [ "snake", "pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9a33174288a27187aab7e4cf89cb947448", null ],
+      [ "jabluszko", "pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9afe9674b1e0554444129fc7f706e61320", null ],
+      [ "truskawka", "pliki_8h.html#ad03408aabe16bb53c780fae6cf3910f9ad7d0cf0205e80d551609efd16fdb4112", null ]
+    ] ],
+    [ "Info", "pliki_8h.html#a632d50bc6acb5d08614d0f99a7ed7293", null ],
+    [ "LOCK_FUNCTION", "pliki_8h.html#a5d7578403df73fcd6df8a63371a5dc13", null ],
+    [ "LOCK_FUNCTION", "pliki_8h.html#aca25476c581e17d0e2b935120de1f1cb", null ],
+    [ "LOCK_VARIABLE", "pliki_8h.html#a03817c78a8aa241e06794f71a9374142", null ],
+    [ "LOCK_VARIABLE", "pliki_8h.html#a443d90ab3d2d22c19bec84bd0a5c0ee7", null ],
+    [ "LOCK_VARIABLE", "pliki_8h.html#aefcfe0573524ac79322a5199072847f7", null ],
+    [ "LOCK_VARIABLE", "pliki_8h.html#af1d81bf36ee9fde1fcc3eabf861c716b", null ],
+    [ "LOCK_VARIABLE", "pliki_8h.html#aba6711dbddf2cdc971eb0743c1283c2a", null ],
+    [ "Losuj_Cytrynke", "pliki_8h.html#aa76181fc0392608fe8d0da5c01908631", null ],
+    [ "Losuj_Jabluszko", "pliki_8h.html#ae557f44b44102818b7967bd0eb48a6f2", null ],
+    [ "Losuj_Truskawki", "pliki_8h.html#a4ebb84e171d8a80c941ee3cae6139356", null ],
+    [ "rest1", "pliki_8h.html#ac665766b70e7d5a42ddd0fd2236e28b2", null ],
+    [ "Sterowanie", "pliki_8h.html#a0a86b61cad77820476f005bc22233f38", null ],
+    [ "Strona_glowna", "pliki_8h.html#a1d19652faeccace63360b93fcb32d05a", null ],
+    [ "timer1", "pliki_8h.html#af21562636f3c617cacfc05dfd70679ea", null ],
+    [ "bufor", "pliki_8h.html#a944c3ec87ecf43e35a1a2d8d7e45f979", null ],
+    [ "bufor1", "pliki_8h.html#ae0a4157f27e197bc0583f4e013b625dc", null ],
+    [ "bufor2", "pliki_8h.html#a1f2053625f7552f599e91a0f1e2895c9", null ],
+    [ "bufor3", "pliki_8h.html#a465a220d57849d0fb23abd544597f14c", null ],
+    [ "klatki", "pliki_8h.html#aec2b62d1a49123b47b7ed3efb40bab54", null ],
+    [ "licznik", "pliki_8h.html#a21854bc2c90fe6d0e5371a898a9f5868", null ],
+    [ "Mapa", "pliki_8h.html#a8dc5eac61baeb0b1c04b0ef3337a51a9", null ],
+    [ "rested", "pliki_8h.html#afd505eb431e8f4dff2c1267157e1448f", null ],
+    [ "resting", "pliki_8h.html#aac3a4d827b543faeb65b45395ca988d0", null ],
+    [ "snejk", "pliki_8h.html#a87d14e948e3e75a39a03a2e3827b0353", null ],
+    [ "tick", "pliki_8h.html#a64245bdb10926e808975e679c8f59679", null ]
+];

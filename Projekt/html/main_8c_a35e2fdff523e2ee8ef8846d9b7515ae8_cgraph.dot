@@ -1,0 +1,17 @@
+digraph "Ruch"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Ruch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Koniec_Gry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#afad532889b04066d4e6a70d9ec02b929"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Ruch_Ciala",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#af05e5b7f81dfbc891cf64727f1cc15fd"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Losuj_Cytrynke",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#aa76181fc0392608fe8d0da5c01908631"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Losuj_Jabluszko",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#ae557f44b44102818b7967bd0eb48a6f2"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Losuj_Truskawki",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#a4ebb84e171d8a80c941ee3cae6139356"];
+}

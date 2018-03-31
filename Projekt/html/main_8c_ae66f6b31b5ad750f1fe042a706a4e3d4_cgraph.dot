@@ -1,0 +1,34 @@
+digraph "main"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Strona_glowna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#a1d19652faeccace63360b93fcb32d05a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#a632d50bc6acb5d08614d0f99a7ed7293"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Sterowanie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#a0a86b61cad77820476f005bc22233f38"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="timer1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#af21562636f3c617cacfc05dfd70679ea"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Losuj_Cytrynke",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#aa76181fc0392608fe8d0da5c01908631"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Losuj_Jabluszko",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#ae557f44b44102818b7967bd0eb48a6f2"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Losuj_Truskawki",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#a4ebb84e171d8a80c941ee3cae6139356"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Ruch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a35e2fdff523e2ee8ef8846d9b7515ae8"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Koniec_Gry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#afad532889b04066d4e6a70d9ec02b929"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Ruch_Ciala",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#af05e5b7f81dfbc891cf64727f1cc15fd"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Rysowanie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a0bdf36ffdabf28750c4618f5e5a42627"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="rest1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pliki_8c.html#ac665766b70e7d5a42ddd0fd2236e28b2"];
+}
